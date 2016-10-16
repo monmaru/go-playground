@@ -1,4 +1,4 @@
-package main
+package playground // mainに変更しないと起動しない
 
 import (
 	"fmt"
