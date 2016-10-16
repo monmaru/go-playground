@@ -7,7 +7,7 @@ import (
 	"github.com/ikawaha/kagome/tokenizer"
 )
 
-func main() {
+func analyze() {
 	t := tokenizer.New()
 	tokens := t.Tokenize("寿司が食べたい。")
 	for _, token := range tokens {
