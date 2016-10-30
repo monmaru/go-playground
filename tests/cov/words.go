@@ -2,6 +2,7 @@ package cov
 
 import "strings"
 
+// Words は文字列の長さに応じてメッセージを返す
 func Words(s string) string {
 	c := len(strings.Fields(s))
 	switch {
